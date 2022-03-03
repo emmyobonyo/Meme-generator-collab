@@ -11,7 +11,6 @@ function Meme() {
   const changeImage = () => {
     const topText = document.getElementById('top-text');
     const bottomText = document.getElementById('bottom-text');
-    console.log(topText);
     const number = Math.floor(Math.random() * 101);
     setImageUrl({
       image: url[number].url,
