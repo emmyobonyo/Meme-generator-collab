@@ -36,8 +36,8 @@ function Meme() {
       context.canvas.height = img.height;
       context.drawImage(img, 0, 0, img.width, img.height);
       context.font = '40px san-serif';
-      context.fillText(topText.value, 280, 50);
-      context.fillText(bottomText.value, 280, 300);
+      context.fillText(topText.value, 280, 50); //! The text is not respoosive
+      context.fillText(bottomText.value, 280, 300); //! The test is not responsive
     };
     img.src = imageURL.image;
   };
