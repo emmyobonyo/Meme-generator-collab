@@ -7,10 +7,10 @@ function Meme() {
     const canvas = document.getElementById('canvas');
     const context = canvas.getContext('2d');
     const img = new Image();
-    context.canvas.width = window.innerWidth;
-    context.canvas.height = window.innerHeight;
     img.onload = function () {
-      context.drawImage(img, 0, 0, window.innerWidth, window.innerHeight);
+      context.canvas.width = img.width;
+      context.canvas.height = img.height;
+      context.drawImage(img, 0, 0, img.width, img.height);
     };
     img.src = 'http://i.imgflip.com/1bij.jpg';
   };
