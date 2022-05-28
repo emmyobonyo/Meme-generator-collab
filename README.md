@@ -16,7 +16,7 @@
 ```
 $ git clone https://github.com/emmyobonyo/Meme-generator-collab.git
 $ cd Meme-generator-collab
-$ git checkout form
+$ git checkout development
 ```
 
 ## Run Project
