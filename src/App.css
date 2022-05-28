@@ -32,3 +32,32 @@ main {
   color: white;
   border: none;
 }
+
+.api-image {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.image {
+  position: relative;
+}
+
+.Top-Text {
+  position: absolute;
+  top: 15%;
+  color: white;
+  left: 40%;
+  font-size: 30px;
+  -webkit-text-stroke: 1px black;
+  font-weight: bold;
+}
+
+.Bottom-Text {
+  position: absolute;
+  left: 40%;
+  color: white;
+  bottom: 10%;
+  font-size: 30px;
+  -webkit-text-stroke: 1px black;
+  font-weight: bold;
+}
